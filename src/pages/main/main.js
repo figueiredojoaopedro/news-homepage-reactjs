@@ -11,7 +11,7 @@ const Main = () => {
             <div className='main-section'>
                 <FeaturedNews></FeaturedNews>
                 <FeaturedNewsList></FeaturedNewsList>
-            </div>
+            </div> 
             <TopNewsList></TopNewsList>
         </div>
     );
