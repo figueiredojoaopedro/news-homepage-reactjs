@@ -1,0 +1,42 @@
+.main-image{
+    width: 100%;
+}
+.news-title{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 900;
+    width: 50%;
+}
+.news-title h1{
+    margin: 2rem 0rem;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.paragraph-container{
+    width: 50%;
+    font-family: "Inter";
+    font-weight: 400;
+}
+.paragraph-container p{
+    margin: 1rem 0rem;
+    padding: 0;
+}
+.read-more-btn{
+    font-family: "Inter";
+    font-weight: 400;
+    color: white;
+    padding: 1rem 2rem;
+    background-color:hsl(5, 85%, 63%);
+    border: 0;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+.read-more-btn:hover{
+    transform: scaleX(1.2);
+    background-color:  hsl(240, 100%, 5%);
+    font-weight: 900;
+}

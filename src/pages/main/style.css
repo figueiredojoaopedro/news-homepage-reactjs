@@ -1,0 +1,13 @@
+.main-section{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+    grid-auto-flow: row;
+}

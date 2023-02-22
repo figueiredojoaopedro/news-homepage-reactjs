@@ -1,0 +1,39 @@
+.menu-list-container{
+    width: 50%;
+}
+.menu-list {
+    padding: 0; margin: 0;
+}
+.menu-list li{
+    list-style-type: none;
+    font-family: "Inter";
+    color: hsl(236, 13%, 42%);
+    transition: all ease-in 0.2s;
+}
+.menu-list li:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.menu-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;    
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 50px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.logo:hover{
+    transform: rotate(15deg);
+}
